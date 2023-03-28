@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tourism</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./libs/autoComplete/css/autoComplete.01.css">
+    <link rel="stylesheet" href="./libs/custom-select/custom-select.css">
+
 </head>
 <body>
     <header class="header">
@@ -59,7 +62,7 @@
             <form action="" class="form">
                 <div class="form__input-wrapper form__input--location">
                     <label for="location" class="form__label">Location</label>
-                    <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                    <input autocomplete="off" type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
                 </div>
 
                 <div class="form__input-wrapper form__input--activity">
@@ -74,7 +77,7 @@
 
                 <div class="form__input-wrapper form__input--date">
                     <label for="date" class="form__label">When</label>
-                    <input type="date" class="form__input" id="date" placeholder="Choose a Date">
+                    <input type="text" class="form__input" id="date" placeholder="Choose a Date">
                 </div>
 
                 <div class="form__input-wrapper form__input--guests">
@@ -94,6 +97,28 @@
         </div>
 
     </header>
+
+    <main class="main">
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-1">Popular Destinations</h2>
+
+                </div>
+                <div class="section__cards section__cards--dest">
+                    .
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./libs/autoComplete/autoComplete.min.js"></script>
+    <script src="./libs/custom-select/custom-select.min.js"></script>
+    <script src="./libs/easepick/easepick.min.js"></script>
+
+    <script src="./js/input-dest.js"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 </html>

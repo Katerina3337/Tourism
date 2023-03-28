@@ -187,3 +187,34 @@ body {
 .form__input::placeholder {
     color: #000;
 }
+
+/* Main */
+
+.title-1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #161414;
+}
+
+.main {
+    padding: 120px 0;
+    display: grid;
+    gap: 120px;
+}
+
+.section {
+
+}
+
+.section__header {
+    margin-bottom: 64px;
+}
+
+.section__cards {
+    display: grid;
+    gap: 32px;
+}
+.section__cards--dest {
+    grid-template-columns: repeat(6, 1fr);
+}
