@@ -50,8 +50,47 @@
                     </div>
                 </div>
             </nav>
-            <div>Title</div>
-            <div>Form</div>
+            <div class="header__content">
+                <h1 class="header__title">Discover the most engaging places</h1>
+                <button class="button button--huge">
+                    <img src="./img/icons/global.svg" alt="">
+                    Discover on 3D Globe</button>
+            </div>
+            <form action="" class="form">
+                <div class="form__input-wrapper form__input--location">
+                    <label for="location" class="form__label">Location</label>
+                    <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                </div>
+
+                <div class="form__input-wrapper form__input--activity">
+                    <label for="activity" class="form__label">Activity</label>
+                    <select name="activity" id="activity" class="form__select">
+                        <option value="all">All activities</option>
+                        <option value="Culture">Culture</option>
+                        <option value="Sport">Sport</option>
+                        <option value="Extreme">Extreme</option>
+                    </select>
+                </div>
+
+                <div class="form__input-wrapper form__input--date">
+                    <label for="date" class="form__label">When</label>
+                    <input type="date" class="form__input" id="date" placeholder="Choose a Date">
+                </div>
+
+                <div class="form__input-wrapper form__input--guests">
+                    <label for="" class="form__label">Guests</label>
+                    <select name="" id="" class="form__select">
+                        <option value="">1 guest</option>
+                        <option value="">2 guests</option>
+                        <option value="">3 guests</option>
+                        <option value="">4 guests</option>
+                    </select>
+                </div>
+
+                <button class="button button--search">
+                    <img src="./img/icons/search.svg" alt="Search">
+                </button>
+            </form>
         </div>
 
     </header>
